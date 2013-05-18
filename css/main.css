@@ -182,7 +182,7 @@ header > h1 {
     text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
 }
 
-.page-say {
+.page-desc {
     margin: -15px 0 0;
     color: #f6f6f6;
     font-size: 18px;
@@ -282,6 +282,99 @@ header > h1 {
     margin-bottom: 30px;
     font-family: "Georgia", serif;
     font-size: 18px;
+}
+
+/* Contact Page */
+
+.form-wrapper {
+    width: 600px;
+    margin: 80px auto;
+    padding: 40px 10px;
+    background: #fbfbfb;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-box-shadow: 0 0 0 10px rgba(0,0,0,.3);
+    -moz-box-shadow: 0 0 0 10px rgba(0,0,0,.3);
+    box-shadow: 0 0 0 10px rgba(0,0,0,.3);
+}
+
+form {
+    width: 500px;
+    margin: 0 auto;
+}
+
+label {
+    color: #474747;
+    font-size: 14px;
+    margin-bottom: 5px;
+    text-transform: lowercase;
+    cursor: pointer;
+}
+
+input,
+textarea {
+    display: block;
+    font-size: 24px;
+    color: #d51426;
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 500px;
+    margin-bottom: 15px;
+    border: 0;
+    border-bottom: 1px dashed #cdcdcd;
+    background: #fbfbfb;
+}
+
+textarea {
+    width: 480px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px dashed #cdcdcd;
+    background: #fbfbfb;
+    font-size: 20px;
+    line-height: 1.3;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus { 
+    outline: none; 
+}
+
+.button {
+    width: 400px;
+    height: 48px;
+    margin: 0 auto;
+    padding: 8px 20px;
+    border: 1px solid #9e2222;
+    background: #d51426;
+    color: #fff;
+    font-size: 18px;
+    text-shadow: 0 1px 1px #9e2222;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(255,255,255,.5);
+    -moz-box-shadow: inset 0 1px 1px rgba(255,255,255,.5);
+    box-shadow: inset 0 1px 1px rgba(255,255,255,.5);
+    -webkit-transition: 0.3s all ease;
+    -moz-transition: 0.3s all ease;
+    -ms-transition: 0.3s all ease;
+    -o-transition: 0.3s all ease;
+    transition: 0.3s all ease;
+}
+
+.button:hover {
+    background: #b61121;
+}
+
+.button:active {
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.5);
+    -moz-box-shadow: inset 0 1px 1px rgba(0,0,0,.5);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.5);
 }
 
 /* Footer
