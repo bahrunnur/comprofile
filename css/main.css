@@ -377,6 +377,38 @@ textarea:focus {
     box-shadow: inset 0 1px 1px rgba(0,0,0,.5);
 }
 
+.success-message {
+    color: #fff;
+    text-align: center;
+    background: rgba(102, 255, 0, .4);
+    padding: 4px 0;
+}
+
+.success-message p {
+    margin: 0;
+}
+
+.error-message {
+    margin-top: -15px;
+    margin-bottom: 5px;
+    display: block;
+    background: #d00;
+    color: #fff;
+    padding: 0 10px;
+}
+
+.close-button {
+    background: rgba(0,0,0,.2);
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    width: 18px;
+    font-size: 12px;
+    -webkit-border-radius: 50%;
+     -moz-border-radius: 50%;
+     border-radius: 50%; 
+}
+
 /* Footer
    ========================================================================== */
 
